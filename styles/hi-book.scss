@@ -25,6 +25,11 @@ $border-radius: 0;
 .navbar {
   border-bottom: 3px solid $hi-teal;
 
+  .navbar-brand-logo img {
+    height: 30px;
+    filter: brightness(0) invert(1);
+  }
+
   .navbar-brand,
   .nav-link,
   .quarto-navbar-tools .nav-link {
