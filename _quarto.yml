@@ -6,7 +6,7 @@ project:
 
 book:
   title: "Erdős í íslenskri verkfræði"
-  subtitle: "Vinnanótur og endurgeranlegt viðbótarefni"
+  subtitle: "Vinnudagbók og endurgeranlegt viðbótarefni"
   repo-url: https://github.com/HI-IDN/erdos-eng-is
   repo-branch: erdos-eng
   repo-actions: [edit, issue]
@@ -14,7 +14,7 @@ book:
   search: true
   page-footer:
     left: "© 2026 Helga Ingimundardóttir"
-    center: "Vinnurit rannsóknar"
+    center: "Vinnudagbók rannsóknar"
     right:
       - icon: github
         href: https://github.com/HI-IDN/erdos-eng-is

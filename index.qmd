@@ -2,7 +2,7 @@
 title: "Erdős í íslenskri verkfræði"
 ---
 
-Þetta er vinnurit rannsóknar á samstarfsnetum í íslenskri verkfræði. Hér eru
+Þetta er vinnudagbók rannsóknar á samstarfsnetum í íslenskri verkfræði. Hér eru
 kóði, gögn til stuðnings niðurstöðum, aðferðafræðilegar ákvarðanir og
 bráðabirgðaniðurstöður sýnilegar á meðan rannsókninni vindur fram.
 

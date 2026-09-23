@@ -11,7 +11,7 @@ viðeigandi breytingu, umræðu eða heimild þegar það á við.
   vefskriðilinn.
 - Raunverulegar Erdős-leiðir voru aðskildar frá formgerðarmiðlægni í
   samstarfsneti íslenskrar verkfræði.
-- Quarto-vinnurit með útgáfu í GitHub Actions var sett upp.
+- Quarto-vinnudagbók með útgáfu í GitHub Actions var sett upp.
 - `erdos-eng` var valin sem vinnugrein; breytingar verða rýndar í pull request
   og síðar sameinaðar í `main` með squash-merge.
 
