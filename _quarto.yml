@@ -1,0 +1,58 @@
+project:
+  type: book
+  output-dir: site
+  resources:
+    - .nojekyll
+
+book:
+  title: "Erdős and Icelandic engineering"
+  subtitle: "Reproducible working notes and supplementary analysis"
+  repo-url: https://github.com/HI-IDN/erdos-eng-is
+  repo-branch: erdos-eng
+  repo-actions: [edit, issue]
+  site-url: https://hi-idn.github.io/erdos-eng-is
+  search: true
+  page-footer:
+    left: "© 2026 Helga Ingimundardóttir"
+    center: "Working research supplement"
+    right:
+      - icon: github
+        href: https://github.com/HI-IDN/erdos-eng-is
+        aria-label: GitHub repository
+  navbar:
+    background: primary
+    tools:
+      - icon: github
+        href: https://github.com/HI-IDN/erdos-eng-is
+        aria-label: GitHub repository
+  sidebar:
+    style: docked
+    background: light
+  chapters:
+    - index.qmd
+    - docs/01-research-questions.qmd
+    - docs/02-data-and-provenance.qmd
+    - docs/03-network-methods.qmd
+    - docs/04-analysis-log.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/hi-book.scss
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-summary: "Show code"
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    fig-width: 9
+    fig-height: 5.5
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  message: false

@@ -1,0 +1,28 @@
+# Data and provenance
+
+## Skemman thesis and supervision data
+
+[`HI-IDN/skemman-harvester`](https://github.com/HI-IDN/skemman-harvester)
+owns collection and normalization. Its OAI-PMH and XOAI workflow supplies
+thesis metadata, people, author/advisor links, files, and title-page evidence in
+DuckDB. This project does not duplicate that crawler.
+
+The related [`HI-IDN/skemman-msc`](https://github.com/HI-IDN/skemman-msc)
+study contains reusable work on engineering-thesis selection and person or
+discipline resolution. Only pieces needed for network analysis should be
+brought here.
+
+## Publication data
+
+The co-authorship source is not yet selected. Before ingestion, document its
+coverage, identifiers, licensing, version or retrieval date, and known biases.
+The working data model should preserve publication identifiers and evidence
+for every edge used in a reported Erdős path.
+
+## Local and published artifacts
+
+- Raw and processed databases stay outside version control.
+- Code, queries, mappings, and manual decisions are reviewed in Git.
+- Small, lawful derived tables may be committed when needed for reproduction.
+- Quarto's `_freeze/` output may be committed so GitHub Actions can reproduce
+  the rendered site without access to the local database.

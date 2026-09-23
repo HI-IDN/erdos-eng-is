@@ -6,6 +6,12 @@ engineering. It is a spin-off from
 collected by
 [`HI-IDN/skemman-harvester`](https://github.com/HI-IDN/skemman-harvester).
 
+The working research book is published at
+<https://hi-idn.github.io/erdos-eng-is/>. It is supplementary material during
+the project: code, methods, decisions, and interim results remain reviewable as
+the analysis develops. It will be edited into a cleaner archival supplement
+when the paper is ready.
+
 ## Research questions
 
 1. **Who among Icelandic engineering researchers has the lowest genuine Erdős
@@ -78,6 +84,24 @@ The first analysis should:
    them;
 5. report centrality and brokerage measures with sensitivity checks, rather
    than naming an “Erdős” from a single metric.
+
+## Documentation
+
+The documentation is a Quarto book. Render it locally with:
+
+```powershell
+quarto render
+```
+
+The rendered site is written to `site/`. GitHub Actions publishes the book to
+GitHub Pages after pushes to `erdos-eng` or `main`, and it can also be run
+manually. Pages with data-dependent executable code should use Quarto's freeze
+cache: render them locally against the private data, review the output, and
+commit `_freeze/`. The database and other local data remain ignored.
+
+Working notes belong in the book when they help another researcher understand
+or reproduce a decision. The final paper supplement can later consolidate or
+remove exploratory material without losing its Git history.
 
 ## License
 

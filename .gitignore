@@ -12,8 +12,20 @@ outputs/
 *.duckdb
 *.db
 
+# Quarto build products (the _freeze cache is intentionally tracked so
+# GitHub Actions can publish data-dependent pages without the private data).
+site/
+.quarto/
+*_files/
+*.quarto_ipynb
+*.knit.md
+*.rmarkdown
+
 # Editors and operating systems
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb

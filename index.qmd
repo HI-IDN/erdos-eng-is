@@ -1,0 +1,38 @@
+---
+title: "Erdős and Icelandic engineering"
+---
+
+This is the working research book for a study of collaboration networks in
+Icelandic engineering. It keeps the code, evidence, methodological decisions,
+and interim findings visible while the study develops.
+
+::: {.callout-note title="Status: working supplementary material"}
+This site is a research record, not yet the final paper supplement. Results may
+change as identities, publication links, and the study population are checked.
+Every substantive claim should remain traceable to data and code.
+:::
+
+## Two different questions
+
+1. **Who among Icelandic engineering researchers has the lowest genuine Erdős
+   number?** This requires a documented research co-authorship path to Paul
+   Erdős.
+2. **Who is structurally the “Erdős of Icelandic engineering”?** This asks who
+   is most central or connective within Icelandic engineering through
+   co-authorship and MSc co-supervision.
+
+The first is a shortest-path question in a global publication network. The
+second is a structural question about a deliberately defined Icelandic
+engineering network. They are related, but one cannot answer the other.
+
+## Reproducibility
+
+Skemman collection and parsing live in
+[`HI-IDN/skemman-harvester`](https://github.com/HI-IDN/skemman-harvester).
+This repository consumes its DuckDB output and adds only the identity and
+network analysis specific to this study. Large data files remain local; cached
+Quarto results allow this site to be built without publishing private or bulky
+source data.
+
+Use the GitHub links on each page to inspect its source, suggest an edit, or
+open an issue about a decision or result.

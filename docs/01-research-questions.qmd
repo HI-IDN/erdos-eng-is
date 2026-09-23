@@ -1,0 +1,33 @@
+# Research questions and definitions
+
+## Genuine Erdős number
+
+An Erdős path is accepted only when every edge represents research
+co-authorship and can be tied to a bibliographic source. Name similarity alone
+is not evidence. Ambiguous identities and disputed edges are recorded rather
+than silently resolved.
+
+The initial outcome is the minimum verified path length for each researcher in
+the study population, together with the full path and supporting publications.
+
+## The “Erdős of Icelandic engineering”
+
+This phrase is treated as a structural comparison, not a nickname assigned by
+intuition. Candidate measures include:
+
+- degree and weighted degree;
+- betweenness and brokerage between institutions or fields;
+- closeness or harmonic centrality in disconnected networks;
+- eigenvector-like measures, where their assumptions fit the graph;
+- robustness across time windows and reasonable population definitions.
+
+Co-authorship and MSc co-supervision are first analysed as separate layers.
+Any combined network must state how edge types and repeated collaborations are
+weighted.
+
+## Population still to define
+
+The population definition is a research decision. It must specify the relevant
+institutions, departments and disciplines; whether affiliation is current or
+historical; the observation period; and how visiting or cross-appointed
+researchers are handled.
