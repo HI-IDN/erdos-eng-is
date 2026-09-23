@@ -1,38 +1,39 @@
 ---
-title: "Erdős and Icelandic engineering"
+title: "Erdős í íslenskri verkfræði"
 ---
 
-This is the working research book for a study of collaboration networks in
-Icelandic engineering. It keeps the code, evidence, methodological decisions,
-and interim findings visible while the study develops.
+Þetta er vinnurit rannsóknar á samstarfsnetum í íslenskri verkfræði. Hér eru
+kóði, gögn til stuðnings niðurstöðum, aðferðafræðilegar ákvarðanir og
+bráðabirgðaniðurstöður sýnilegar á meðan rannsókninni vindur fram.
 
-::: {.callout-note title="Status: working supplementary material"}
-This site is a research record, not yet the final paper supplement. Results may
-change as identities, publication links, and the study population are checked.
-Every substantive claim should remain traceable to data and code.
+::: {.callout-note title="Staða: viðbótarefni í vinnslu"}
+Þessi vefur er rannsóknardagbók en ekki fullbúið viðbótarefni greinar.
+Niðurstöður geta breyst þegar auðkenni einstaklinga, tengsl milli útgáfa og
+afmörkun þýðisins hafa verið yfirfarin. Allar efnislegar staðhæfingar eiga að
+vera rekjanlegar til gagna og kóða.
 :::
 
-## Two different questions
+## Tvær ólíkar spurningar
 
-1. **Who among Icelandic engineering researchers has the lowest genuine Erdős
-   number?** This requires a documented research co-authorship path to Paul
+1. **Hver meðal íslenskra verkfræðirannsakenda hefur lægstu raunverulegu
+   Erdős-töluna?** Til þess þarf skjalfesta keðju rannsóknarsamstarfs að Paul
    Erdős.
-2. **Who is structurally the “Erdős of Icelandic engineering”?** This asks who
-   is most central or connective within Icelandic engineering through
-   co-authorship and MSc co-supervision.
+2. **Hver er „Erdős íslenskrar verkfræði“ í netfræðilegum skilningi?** Hér er
+   spurt hver sé miðlægastur eða tengi best saman hópa innan íslenskrar
+   verkfræði samkvæmt samskrifum og sameiginlegri leiðsögn meistararitgerða.
 
-The first is a shortest-path question in a global publication network. The
-second is a structural question about a deliberately defined Icelandic
-engineering network. They are related, but one cannot answer the other.
+Fyrri spurningin snýst um stystu leið í alþjóðlegu birtinganeti. Sú síðari
+snýst um formgerð afmarkaðs samstarfsnets íslenskrar verkfræði. Spurningarnar
+tengjast en önnur svarar ekki hinni.
 
-## Reproducibility
+## Endurgeranleiki
 
-Skemman collection and parsing live in
+Söfnun og þáttun gagna úr Skemmunni fer fram í
 [`HI-IDN/skemman-harvester`](https://github.com/HI-IDN/skemman-harvester).
-This repository consumes its DuckDB output and adds only the identity and
-network analysis specific to this study. Large data files remain local; cached
-Quarto results allow this site to be built without publishing private or bulky
-source data.
+Þetta verkefni les DuckDB-gagnagrunn þess og bætir aðeins við þeirri
+auðkenningar- og netgreiningu sem tilheyrir rannsókninni. Stór gagnasöfn eru
+geymd staðbundið; frystar Quarto-niðurstöður gera kleift að byggja vefinn án
+þess að birta einkagögn eða fyrirferðarmikil frumgögn.
 
-Use the GitHub links on each page to inspect its source, suggest an edit, or
-open an issue about a decision or result.
+GitHub-tenglarnir á hverri síðu opna frumtextann, breytingartillögu eða umræðu
+um ákvörðun eða niðurstöðu.

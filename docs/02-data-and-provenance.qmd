@@ -1,28 +1,28 @@
-# Data and provenance
+# Gögn og uppruni
 
-## Skemman thesis and supervision data
+## Ritgerðir og leiðsögn úr Skemmunni
 
 [`HI-IDN/skemman-harvester`](https://github.com/HI-IDN/skemman-harvester)
-owns collection and normalization. Its OAI-PMH and XOAI workflow supplies
-thesis metadata, people, author/advisor links, files, and title-page evidence in
-DuckDB. This project does not duplicate that crawler.
+sér um söfnun og stöðlun. OAI-PMH- og XOAI-vinnsluferlið skilar lýsigögnum
+ritgerða, einstaklingum, tengslum höfunda og leiðbeinenda, skrám og upplýsingum
+af titilsíðum í DuckDB. Þessi rannsókn afritar ekki vefskriðilinn.
 
-The related [`HI-IDN/skemman-msc`](https://github.com/HI-IDN/skemman-msc)
-study contains reusable work on engineering-thesis selection and person or
-discipline resolution. Only pieces needed for network analysis should be
-brought here.
+Tengda rannsóknin
+[`HI-IDN/skemman-msc`](https://github.com/HI-IDN/skemman-msc) geymir vinnu sem
+nýta má við val verkfræðiritgerða og samræmingu einstaklinga og fræðigreina.
+Aðeins það sem þarf til netgreiningarinnar á heima hér.
 
-## Publication data
+## Útgáfugögn
 
-The co-authorship source is not yet selected. Before ingestion, document its
-coverage, identifiers, licensing, version or retrieval date, and known biases.
-The working data model should preserve publication identifiers and evidence
-for every edge used in a reported Erdős path.
+Gagnalind samskrifa hefur ekki verið valin. Áður en gögn eru lesin inn þarf að
+skrá þekju hennar, auðkenni, leyfisskilmála, útgáfu eða sóknardag og þekkta
+skekkju. Gagnalíkanið þarf að varðveita útgáfuauðkenni og sönnunargögn fyrir
+sérhvert tengsl sem notað er í birtri Erdős-leið.
 
-## Local and published artifacts
+## Staðbundin og birt gögn
 
-- Raw and processed databases stay outside version control.
-- Code, queries, mappings, and manual decisions are reviewed in Git.
-- Small, lawful derived tables may be committed when needed for reproduction.
-- Quarto's `_freeze/` output may be committed so GitHub Actions can reproduce
-  the rendered site without access to the local database.
+- Hráir og unnir gagnagrunnar eru utan útgáfustýringar.
+- Kóði, fyrirspurnir, vörpun og handvirkar ákvarðanir eru rýndar í Git.
+- Lítil, lögmæt afleidd gagnasöfn má vista þegar þau þarf til endurgerðar.
+- Frystar niðurstöður Quarto í `_freeze/` má vista svo GitHub Actions geti
+  endurgert vefinn án aðgangs að staðbundnum gagnagrunni.

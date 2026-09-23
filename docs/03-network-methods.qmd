@@ -1,28 +1,27 @@
-# Network construction and analysis
+# Gerð og greining samstarfsneta
 
-## Identity resolution
+## Samræming einstaklinga
 
-Person resolution precedes graph construction. Each merged identity should be
-auditable through stable identifiers, affiliations, publications, or an
-explicit manual decision. Diacritics, name order, initials, and name changes
-must be handled without erasing uncertainty.
+Samræma þarf einstaklinga áður en net eru mynduð. Sérhver sameining auðkenna á
+að vera rekjanleg með varanlegum auðkennum, starfsaðild, útgáfum eða skráðri
+handvirkri ákvörðun. Meðhöndla þarf stafmerki, röð nafna, upphafsstafi og
+nafnabreytingar án þess að fela óvissu.
 
-## Network layers
+## Lög netsins
 
-The analysis begins with at least two graphs:
+Greiningin hefst á að minnsta kosti tveimur netum:
 
-1. a publication co-authorship graph;
-2. an MSc co-supervision graph, where researchers are linked when they jointly
-   supervise the same thesis.
+1. samskrifaneti rannsóknarrita;
+2. sameiginlegu leiðsagnarneti meistararitgerða, þar sem rannsakendur tengjast
+   þegar þeir leiðbeina sömu ritgerð.
 
-An author–thesis or supervisor–thesis bipartite representation should be kept
-as the source of any projected person-to-person graph.
+Varðveita á tvíhlutanet höfunda og rita eða leiðbeinenda og ritgerða sem
+uppruna sérhverrar vörpunar yfir í net einstaklinga.
 
-## Validation and sensitivity
+## Staðfesting og næmnigreining
 
-Reported rankings should be checked against alternative time windows,
-reasonable population definitions, edge weighting choices, and treatment of
-disconnected components. Genuine Erdős paths receive an additional manual
-evidence check.
+Prófa þarf röðun einstaklinga með öðrum tímabilum, skynsamlegum afmörkunum
+þýðisins, mismunandi vægi tengsla og ólíkri meðferð ótengdra hluta. Sérhver
+raunveruleg Erdős-leið fær að auki handvirka heimildaskoðun.
 
-This chapter will grow with executable analysis as the data model settles.
+Þessi kafli stækkar með keyranlegri greiningu þegar gagnalíkanið skýrist.

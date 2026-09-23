@@ -5,8 +5,8 @@ project:
     - .nojekyll
 
 book:
-  title: "Erdős and Icelandic engineering"
-  subtitle: "Reproducible working notes and supplementary analysis"
+  title: "Erdős í íslenskri verkfræði"
+  subtitle: "Vinnanótur og endurgeranlegt viðbótarefni"
   repo-url: https://github.com/HI-IDN/erdos-eng-is
   repo-branch: erdos-eng
   repo-actions: [edit, issue]
@@ -14,17 +14,17 @@ book:
   search: true
   page-footer:
     left: "© 2026 Helga Ingimundardóttir"
-    center: "Working research supplement"
+    center: "Vinnurit rannsóknar"
     right:
       - icon: github
         href: https://github.com/HI-IDN/erdos-eng-is
-        aria-label: GitHub repository
+        aria-label: GitHub-kóðasafn
   navbar:
     background: primary
     tools:
       - icon: github
         href: https://github.com/HI-IDN/erdos-eng-is
-        aria-label: GitHub repository
+        aria-label: GitHub-kóðasafn
   sidebar:
     style: docked
     background: light
@@ -44,7 +44,7 @@ format:
     toc-depth: 3
     number-sections: true
     code-fold: true
-    code-summary: "Show code"
+    code-summary: "Sýna kóðann"
     code-copy: true
     code-overflow: wrap
     smooth-scroll: true
@@ -56,3 +56,20 @@ execute:
   echo: true
   warning: false
   message: false
+
+language:
+  section-title-appendices: "Viðauki"
+  toc-title-document: "Efnisyfirlit"
+  toc-title-website: "Á þessari síðu"
+  back-to-top: "Efst á síðu"
+  search-text-placeholder: "Leita"
+  repo-action-links-edit: "Breyta þessari síðu"
+  repo-action-links-issue: "Tilkynna villu"
+  repo-action-links-source: "Skoða frumkóða"
+  copy-button-tooltip: "Afrita"
+  copy-button-tooltip-success: "Afritað!"
+  search-no-results-text: "Engar niðurstöður"
+  crossref-ch-prefix: "Kafli"
+  crossref-sec-prefix: "Hluti"
+  crossref-fig-title: "Mynd"
+  crossref-tbl-title: "Tafla"

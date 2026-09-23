@@ -1,33 +1,33 @@
-# Research questions and definitions
+# Rannsóknarspurningar og skilgreiningar
 
-## Genuine Erdős number
+## Raunveruleg Erdős-tala
 
-An Erdős path is accepted only when every edge represents research
-co-authorship and can be tied to a bibliographic source. Name similarity alone
-is not evidence. Ambiguous identities and disputed edges are recorded rather
-than silently resolved.
+Erdős-leið er aðeins samþykkt þegar sérhver leggur hennar táknar samskrif
+rannsóknarrits og hægt er að tengja hann við heimild í útgáfuskrá. Nafnalíkindi
+ein og sér teljast ekki sönnun. Óviss auðkenni og umdeild tengsl eru skráð í
+stað þess að leysa þau í kyrrþey.
 
-The initial outcome is the minimum verified path length for each researcher in
-the study population, together with the full path and supporting publications.
+Fyrsta niðurstaðan verður stysta staðfesta leið hvers rannsakanda í þýðinu,
+ásamt allri leiðinni og þeim útgáfum sem staðfesta hana.
 
-## The “Erdős of Icelandic engineering”
+## „Erdős íslenskrar verkfræði“
 
-This phrase is treated as a structural comparison, not a nickname assigned by
-intuition. Candidate measures include:
+Heitið er hér netfræðileg samlíking en ekki viðurnefni sem valið er eftir
+tilfinningu. Meðal mælikvarða sem koma til greina eru:
 
-- degree and weighted degree;
-- betweenness and brokerage between institutions or fields;
-- closeness or harmonic centrality in disconnected networks;
-- eigenvector-like measures, where their assumptions fit the graph;
-- robustness across time windows and reasonable population definitions.
+- gráða og vegin gráða;
+- milliliðamiðlægni og brúarhlutverk milli stofnana eða fagsviða;
+- nálægðar- eða samhljómsmiðlægni í ótengdum netum;
+- eiginvigursmiðlægni þegar forsendur hennar eiga við;
+- stöðugleiki gagnvart tímabilum og skynsamlegum skilgreiningum þýðisins.
 
-Co-authorship and MSc co-supervision are first analysed as separate layers.
-Any combined network must state how edge types and repeated collaborations are
-weighted.
+Samskrif og sameiginleg leiðsögn meistararitgerða eru fyrst greind sem aðskilin
+lög. Ef lögin eru sameinuð þarf að gera grein fyrir vægi tegunda tengsla og
+endurteknu samstarfi.
 
-## Population still to define
+## Afmörkun þýðis
 
-The population definition is a research decision. It must specify the relevant
-institutions, departments and disciplines; whether affiliation is current or
-historical; the observation period; and how visiting or cross-appointed
-researchers are handled.
+Skilgreining þýðisins er rannsóknarákvörðun. Tilgreina þarf stofnanir, deildir
+og fræðigreinar; hvort miðað sé við núverandi eða sögulega starfsaðild;
+athugunartímabil; og hvernig farið sé með gesti og fólk með fleiri en eina
+starfsaðild.
